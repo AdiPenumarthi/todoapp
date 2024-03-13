@@ -1,0 +1,52 @@
+.todo-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10px;
+  margin: 0px;
+  background-color: #4a5480;
+  border-radius: 4px;
+  min-height: 30px;
+  margin-bottom: 15px;
+}
+
+.todo-text-card {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.todo {
+  color: #ffffff;
+  font-family: "Roboto";
+  margin: 0px;
+}
+
+.update-count {
+  color: #ffffff;
+  font-family: "Roboto";
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.update-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.update-card button {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.edit-btn {
+  color: #ffffff;
+}
